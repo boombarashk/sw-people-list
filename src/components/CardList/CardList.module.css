@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.card:hover {
+  box-shadow: var(--shadow);
+  color: var(--yellow);
+}
+
+.card div[class~="ant-card-head-title"] {
+  height: 100px;
+  font-size: 1.2rem;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+}
+.card div[class~="ant-card-body"] {
+  display: none;
+}

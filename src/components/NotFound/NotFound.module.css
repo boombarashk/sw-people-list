@@ -1,0 +1,10 @@
+.container {
+  text-align: center;
+}
+.h1 {
+  font-family: "StarJedi";
+}
+.description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}

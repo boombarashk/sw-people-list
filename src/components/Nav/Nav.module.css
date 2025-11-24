@@ -1,0 +1,32 @@
+.container {
+  height: 80px;
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+
+.searchInput {
+  color: var(--white);
+  border-color: var(--ant-border-secondary);
+  background-color: transparent;
+}
+.searchInput::placeholder {
+  color: var(--ant-border-secondary);
+}
+
+.resetBtn:disabled {
+  color: var(--ant-border-secondary);
+  border-color: var(--ant-border-secondary);
+}
+
+.noCursor {
+  cursor: default;
+}
+
+.hidden {
+  visibility: hidden;
+}

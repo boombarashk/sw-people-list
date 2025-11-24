@@ -1,0 +1,53 @@
+:root {
+  --dark: #000;
+  --white: #fff;
+  --yellow: #ffe81f;
+  --ant-blue: #1668dc; /* --ant-pagination-item-active-color */
+  --ant-hover-blue: #3c89e8; /* --ant-pagination-item-active-color-hover */
+  --ant-border-secondary: #303030; /* --ant-color-border-secondary */
+  --gray: #767676;
+  --shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+@font-face {
+  font-family: "StarJedi"; /* only latin */
+  src:
+    url("./StarJedi-DGRW.ttf") format("truetype"),
+    url("./StarJedi-DGRW.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--dark);
+  color: var(--white);
+}
+
+a {
+  color: var(--ant-blue);
+}
+a:hover {
+  color: var(--ant-hover-blue);
+}
+
+h1 {
+  /*text-transform: uppercase;*/
+  font-family: "StarJedi", "Open Sans", sans-serif;
+  font-size: 50px;
+}
+
+.star-wars-text {
+  color: var(--yellow);
+  text-shadow: var(--shadow);
+}

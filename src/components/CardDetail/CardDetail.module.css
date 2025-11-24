@@ -1,0 +1,30 @@
+.grid {
+  display: grid;
+  grid-template-columns: 150px auto;
+  gap: 0.5rem;
+}
+.back {
+  display: inline-block;
+  margin-top: 2rem;
+  font-family: "Open Sans";
+}
+.label {
+  font-family: "Open Sans";
+  color: var(--gray);
+  height: 32px;
+}
+
+.value {
+  font-family: "Open Sans";
+  color: var(--white);
+}
+
+.action {
+  margin-top: 1rem;
+  display: flex;
+  grid-column: 2 / 3;
+  gap: 0.5rem;
+}
+.resetBtn {
+  width: 130px;
+}
