@@ -1,9 +1,9 @@
 import type { KeyPeopleProps } from "./types";
-
-export const API_GET_PEOPLE = `${process.env.API_URL}/people`;
-export const API_GET_PLANETS = `${process.env.API_URL}/planets`;
-export const API_GET_FILMS = `${process.env.API_URL}/films`;
-export const API_GET_SHIPS = `${process.env.API_URL}/starships`;
+const API_URL="https://swapi.dev/api";
+export const API_GET_PEOPLE = `${API_URL}/people`;
+export const API_GET_PLANETS = `${API_URL}/planets`;
+export const API_GET_FILMS = `${API_URL}/films`;
+export const API_GET_SHIPS = `${API_URL}/starships`;
 export const COUNT_ITEMS = 10;
 
 export const NO_ITERABLE_STRING_PROPS: Partial<KeyPeopleProps>[] = [
