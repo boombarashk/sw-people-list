@@ -28,3 +28,11 @@
 .resetBtn {
   width: 130px;
 }
+@media (max-width: 480px) {
+  .action {
+    flex-wrap: wrap;
+  }
+  .value {
+    max-width: 90%;
+  }
+}

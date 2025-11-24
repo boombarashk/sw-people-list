@@ -42,7 +42,6 @@ a:hover {
 }
 
 h1 {
-  /*text-transform: uppercase;*/
   font-family: "StarJedi", "Open Sans", sans-serif;
   font-size: 50px;
 }
@@ -50,4 +49,13 @@ h1 {
 .star-wars-text {
   color: var(--yellow);
   text-shadow: var(--shadow);
+}
+@media (max-width: 480px) {
+  body {
+    padding: 16px;
+    min-height: auto;
+  }
+  h1 {
+    font-size: 2rem;
+  }
 }

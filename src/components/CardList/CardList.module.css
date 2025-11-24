@@ -20,3 +20,12 @@
 .card div[class~="ant-card-body"] {
   display: none;
 }
+
+@media (max-width: 480px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+  .card div[class~="ant-card-head-title"] {
+    height: auto;
+  }
+}
